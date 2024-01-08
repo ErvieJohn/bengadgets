@@ -12,16 +12,18 @@ import Home from './components/Home/Home';
 import Products from './components/Products/Products';
 import About from './components/About/About';
 import Contacts from './components/Contacts/Contacts';
+import { BASE_URL } from './config/config';
+
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route element={<AppLayout />} >
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/products" element={<Products />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contacts" element={<Contacts />} />
+          <Route exact path={BASE_URL + "/"} element={<Home />} />
+          <Route exact path={BASE_URL + "/products"} element={<Products />} />
+          <Route exact path={BASE_URL + "/about"} element={<About />} />
+          <Route exact path={BASE_URL + "/contacts"} element={<Contacts />} />
         </Route>
       </Routes>
     </Router>
