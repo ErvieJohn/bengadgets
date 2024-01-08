@@ -1,0 +1,23 @@
+.nav-body{
+    margin: 20px 50px 0 50px; 
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+    flex-direction: "row";
+}
+
+.nav-item{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-item-link{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
