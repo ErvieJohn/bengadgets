@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/bengadgets/static/css/main.937e6e9c.css",
-    "main.js": "/bengadgets/static/js/main.47a5a785.js",
+    "main.js": "/bengadgets/static/js/main.6bc0f78b.js",
     "static/js/787.503f4736.chunk.js": "/bengadgets/static/js/787.503f4736.chunk.js",
     "static/media/logo.svg": "/bengadgets/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bengadgets/index.html",
     "main.937e6e9c.css.map": "/bengadgets/static/css/main.937e6e9c.css.map",
-    "main.47a5a785.js.map": "/bengadgets/static/js/main.47a5a785.js.map",
+    "main.6bc0f78b.js.map": "/bengadgets/static/js/main.6bc0f78b.js.map",
     "787.503f4736.chunk.js.map": "/bengadgets/static/js/787.503f4736.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.937e6e9c.css",
-    "static/js/main.47a5a785.js"
+    "static/js/main.6bc0f78b.js"
   ]
 }
